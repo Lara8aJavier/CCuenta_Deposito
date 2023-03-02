@@ -1,5 +1,13 @@
+/** 
+ * @brief 
+ * @author Javier Lara Ochoa
+ * @version 1.0
+ */
 public class Main {
 
+    /** 
+     * @brief public main method
+     */
     public static void main(String[] args) {
         CCuenta cuenta1;
         double saldoActual;
@@ -8,12 +16,13 @@ public class Main {
 
         operativa_cuenta();
         
-
-
-        
-
     }
 
+    /** 
+     * @brief method operativa_cuenta
+     * @param cantidad
+     * @return 
+     */
     public static operativa_cuenta(){
         float cantidad;
         saldoActual = cuenta1.estado();
